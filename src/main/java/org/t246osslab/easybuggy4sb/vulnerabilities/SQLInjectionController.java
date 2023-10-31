@@ -86,6 +86,6 @@ public class SQLInjectionController extends AbstractController {
 				return user;
 			}
 		});
-		//*/ End Remediated Section
+		//  End Remediated Section */
 	}
 }
