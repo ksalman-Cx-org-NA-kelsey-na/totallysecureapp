@@ -9,7 +9,7 @@ resource "alicloud_ram_account_password_policy" "corporate1" {
 }
 
 resource "alicloud_ram_account_password_policy" "corporate2" {
-  minimum_password_length = 12
+  minimum_password_length = 13
   require_lowercase_characters = true
   require_uppercase_characters = true
   require_numbers              = false
